@@ -104,11 +104,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 layer_state_t layer_state_set_user(layer_state_t state) {
-   return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
+    return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
 }
 
 void keyboard_post_init_user(void) {
-  // Configure RGB Matrix
-  rgb_matrix_mode_noeeprom(RGB_MATRIX_MULTISPLASH);
-  rgb_matrix_set_speed_noeeprom(200);
+    // Configure RGB Matrix
+    rgb_matrix_mode_noeeprom(RGB_MATRIX_MULTISPLASH);
+    rgb_matrix_set_speed_noeeprom(200);
 }
