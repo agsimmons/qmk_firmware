@@ -8,6 +8,10 @@
 #undef ENABLE_RGB_MATRIX_BAND_SAT
 #undef ENABLE_RGB_MATRIX_BAND_VAL
 
+// https://docs.qmk.fm/#/feature_split_keyboard?id=data-sync-options
+// Used for RGB Matrix Multisplash Effect
+#define SPLIT_TRANSPORT_MIRROR
+
 #define ENABLE_RGB_MATRIX_MULTISPLASH
 
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
