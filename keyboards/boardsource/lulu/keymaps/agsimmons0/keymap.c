@@ -112,3 +112,7 @@ void keyboard_post_init_user(void) {
     rgb_matrix_mode_noeeprom(RGB_MATRIX_MULTISPLASH);
     rgb_matrix_set_speed_noeeprom(200);
 }
+
+bool oled_task_user(void) {
+    return false;
+}
