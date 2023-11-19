@@ -10,6 +10,13 @@
 #undef ENABLE_RGB_MATRIX_BAND_VAL
 
 // ===== Customizations =======================================================
+// ----- Behavior -------------------------------------------------------------
+// Configure the global tapping term (default: 200ms)
+#define TAPPING_TERM 200
+
+// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
+#define QUICK_TAP_TERM 0
+
 // ----- RGB Matrix -----------------------------------------------------------
 // https://docs.qmk.fm/#/feature_split_keyboard?id=data-sync-options
 // Used for RGB Matrix Multisplash Effect
