@@ -17,6 +17,9 @@
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define QUICK_TAP_TERM 0
 
+// ----- OLED Display ---------------------------------------------------------
+#define SPLIT_OLED_ENABLE
+
 // ----- RGB Matrix -----------------------------------------------------------
 // https://docs.qmk.fm/#/feature_split_keyboard?id=data-sync-options
 // Used for RGB Matrix Multisplash Effect

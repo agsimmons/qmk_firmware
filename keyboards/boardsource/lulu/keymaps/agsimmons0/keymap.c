@@ -186,6 +186,14 @@ void keyboard_post_init_user(void) {
     rgb_matrix_set_speed_noeeprom(200);
 }
 
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    if (!is_keyboard_master()) {
+        return OLED_ROTATION_0;
+    }
+
+    return rotation;
+}
+
 bool oled_task_user(void) {
     return false;
 }
