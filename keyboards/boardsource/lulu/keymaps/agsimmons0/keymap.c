@@ -8,7 +8,7 @@ enum layers {
     _QWERTY,
     _RAISE,
     _LOWER,
-    _ADJUST
+    _ADJUST,
 };
 
 enum custom_keycodes {
@@ -155,7 +155,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_CLMK, KC_QWRT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
                              _______, _______, _______, _______, _______,  _______, _______, _______
-  )
+  ),
 };
 
 layer_state_t layer_state_set_user(layer_state_t state) {
